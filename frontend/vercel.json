@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "dist/aava-grc/browser",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
