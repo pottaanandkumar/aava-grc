@@ -39,6 +39,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "allowedHosts": ["sb-7i11s48p37w5.vercel.run"]
+          },
           "configurations": {
             "production": { "buildTarget": "aava-grc:build:production" },
             "development": { "buildTarget": "aava-grc:build:development" }
