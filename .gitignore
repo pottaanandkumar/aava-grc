@@ -6,3 +6,5 @@ __pycache__/
 .angular/
 .DS_Store
 .aava/
+.vercel
+.env*
